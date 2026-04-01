@@ -1,0 +1,55 @@
+
+article{
+    margin:2em;
+}
+article div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+article div p {
+    padding:0;
+    margin:0;
+}
+.titleClass h4{
+    margin:0;
+    font-size: 2em;
+    padding-bottom: 0;
+    color: rgb(48, 35, 21);
+}
+.titleClass p{
+    font-size: 1.5em;
+    color: rgb(113, 81, 49);
+}
+section p{
+    color: rgb(113, 81, 49);
+}
+.titleClass{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap:0;
+   }
+article div button{
+  background-color: rgb(232, 209, 140);
+  color: rgb(113, 81, 49);
+  border-radius: 10em;
+  border: transparent;
+  font-size: 1em;
+  margin: 3em 0;
+  font-weight: 300;
+  padding: 0.2em 2em;
+  cursor: pointer;
+}
+article img{
+    width: 100%;
+    border-top-left-radius:5em ;
+    border-top-right-radius:5em ;
+}
+article section{
+    width: 100%;
+  border-bottom-left-radius:5em ;
+    border-bottom-right-radius:5em ; 
+    background-color: rgba(207, 169, 114, 0.414); 
+}

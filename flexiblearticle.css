@@ -1,0 +1,22 @@
+article{
+    display:flex;
+    gap: 1em;
+    color: rgb(78, 56, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(232, 209, 140);
+    border-radius: 5em;
+}
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 80%;
+    padding:1em;
+}
+.imgDiv{
+    display: flex;
+    
+}
+div img{
+    border-radius: 5em;
+}
