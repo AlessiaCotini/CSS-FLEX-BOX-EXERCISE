@@ -136,6 +136,12 @@ footer .imgDiv{
 footer div img{
     border-radius: 5em;
 }
+ .firstButton, .secondButton{
+    display: inline;
+    margin:0;
+    padding: 0;
+    
+   }
 @media  screen and (max-width: 400px) {
    body{
     display: flex;
