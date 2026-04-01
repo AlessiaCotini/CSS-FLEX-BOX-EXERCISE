@@ -70,6 +70,9 @@ main article div p {
     padding:0;
     margin:0;
 }
+main article:last-child {
+    display: none;
+}
 main .titleClass h4{
     margin:0;
     font-size: 2em;
@@ -173,4 +176,7 @@ footer div img{
     font-size: 1em;
     height: 50%;
    }
+   main article:last-child {
+    display:block ;
+}
 }
