@@ -1,0 +1,135 @@
+body{
+    text-align: left;
+    color: rgb(113, 81, 49); ;
+}
+header nav{
+    display: flex;
+    background-color: rgb(232, 209, 140);
+    border-radius: 2em; 
+    justify-content: center;
+    height: 7em;
+}
+header ul {
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+    width: 90%;
+    padding: 1em;
+}
+header ul li{
+    display: flex;
+  background-color: rgb(234, 199, 93);
+  color: rgb(113, 81, 49);
+  border-radius: 10em;
+  border: transparent;
+  font-size: 1em;
+  margin: 3em 0;
+  font-weight: 300;
+  padding: 0.2em 2em;
+  cursor: pointer;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+}
+header li div{
+    display: flex;
+    justify-content: center;
+}
+header .shopButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2em;
+    flex: 5;
+}
+header .shopButton b{
+    font-weight: 600;
+    padding: 1em;
+    font-size: 1.5em;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+main article{
+    margin:2em;
+    width: 40%;
+    }
+
+main article div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+main article div p {
+    padding:0;
+    margin:0;
+}
+main .titleClass h4{
+    margin:0;
+    font-size: 2em;
+    padding-bottom: 0;
+    color: rgb(48, 35, 21);
+}
+main .titleClass p{
+    font-size: 1.5em;
+    color: rgb(113, 81, 49);
+}
+section p{
+    color: rgb(113, 81, 49);
+}
+main .titleClass{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap:0;
+   }
+main article div button{
+  background-color: rgb(232, 209, 140);
+  color: rgb(113, 81, 49);
+  border-radius: 10em;
+  border: transparent;
+  font-size: 1em;
+  margin: 3em 0;
+  font-weight: 300;
+  padding: 0.2em 2em;
+  cursor: pointer;
+}
+main article img{
+    width: 100%;
+    border-top-left-radius:5em ;
+    border-top-right-radius:5em ;
+}
+main article section{
+    width: 100%;
+  border-bottom-left-radius:5em ;
+    border-bottom-right-radius:5em ; 
+    background-color: rgba(207, 169, 114, 0.414); 
+}
+footer article{
+    display:flex;
+    gap: 1em;
+    color: rgb(78, 56, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(232, 209, 140);
+    border-radius: 5em;
+}
+footer .textDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    padding:1em;
+}
+footer .imgDiv{
+    display: flex;
+    
+}
+footer div img{
+    border-radius: 5em;
+}
